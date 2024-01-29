@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang='fr'>
+    <head>
+        <meta charset="UTF-8">
+        <title>Escape Game</title>
+        <link href="style.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body class="bg">
+      
+       <section id="room">
+          <!-- le information sur une pièce et les directions possibles s'afficheront ici -->
+       </section>
+
+       <!-- template pour formater les informations d'une pieces -->
+       <template id='room-template'>
+        <div>
+            <p class="description">{{description}}</p>
+            <p>Où allez-vous ?</p>
+            {{directions}}
+        </div>  
+       </template>
+
+       <!-- template pour formater une direction posible -->
+       <template id='direction-template'>
+            <button>{{porte}}</button>
+       </template>
+
+       <script src="script.js"></script>
+    
+    </body>
+</html>
