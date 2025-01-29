@@ -7,7 +7,7 @@
 
     Q2 :
     Complétez le script ci-dessous pour faire bon usage de getRoomData.
-    Testez en utilisant la partie cliente de l'exercice 3 (attention aux urls)
+    Testez en utilisant la partie cliente de l'exercice 4 (attention aux urls)
 */
 
 require("model.php");
