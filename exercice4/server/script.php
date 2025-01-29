@@ -7,7 +7,6 @@
     trouvez une façon de ré-écrire votre script sans avoir besoin d'énumérer toutes les pièces possibles.
     Sauf si vous l'aviez déjà fait ainsi dès le départ !
 
-    Testez votre code en utilisant la partie cliente de l'exercice 3. (Attention aux urls !)
 */
 
 $file = "data-entree.json";
